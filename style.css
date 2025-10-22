@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    width: 80%;
+    max-width: 700px;
+    height: 250px;
+    padding: 10px;
+    border: 3px dashed #3498db;
+    background-color: #ecf0f1;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+
+.item{
+    flex: 1;
+    background-color: #2ecc71;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    height: 100px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
